@@ -44,3 +44,33 @@
   #root, #__next {
     isolation: isolate;
   }
+
+  body {
+    background-color: hsl(185, 41%, 84%);
+  }
+
+  .container {
+    display: flex;
+    max-width: 1440px;
+    justify-content: space-between;
+    margin: 120px;
+    /*padding: 230px;*/
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+  }
+
+  .tip-options {
+    margin: 30px;
+  }
+
+  .summary {
+    background-color:hsl(183, 100%, 15%);
+    border-radius: 30px;
+    padding: 240px;
+    margin: 20px;
+  }
+
+  .tip-per {
+    display: flex;
+
+  }
