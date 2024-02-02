@@ -72,8 +72,8 @@
   .summary {
     background-color:hsl(183, 100%, 15%);
     border-radius: 30px;
-    padding: 240px;
-    margin: 20px;
+    margin: 30px;
+    width: 900px;
   }
 
   .tip-per {
@@ -87,6 +87,8 @@
   input {
     background-color: hsl(189, 41%, 97%);
     border: none;
+    width: 560px;
+    padding: 15px 0px 15px;
   }
   button {
     border: none;
@@ -115,4 +117,27 @@
 
   .tip-select {
     line-height: 50px;
+  }
+
+  .summary-h4 {
+    color: hsl(0, 0%, 100%);
+  }
+
+  p {
+    color: hsl(184, 14%, 56%);
+  }
+
+  .reset {
+    background-color: hsl(186, 14%, 43%);
+    color: hsl(183, 100%, 15%);
+    width: 500px;
+    margin: 30px;
+  }
+
+  .tip-amount {
+    margin: 30px;
+  }
+
+  .total {
+    margin: 30px;
   }
