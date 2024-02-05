@@ -132,6 +132,7 @@
     color: hsl(183, 100%, 15%);
     width: 500px;
     margin: 30px;
+    margin-top: 130px;
   }
 
   .tip-amount {
@@ -141,3 +142,23 @@
   .total {
     margin: 30px;
   }
+
+  .bills-input {
+    width: 100%;
+    background-image: url(images/icon-dollar.svg);
+    background-repeat: no-repeat;
+  }
+
+  .NOP-input {
+    width: 100%;
+    background-image: url(images/icon-person.svg);
+    background-repeat: no-repeat;
+    text-align: left;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
