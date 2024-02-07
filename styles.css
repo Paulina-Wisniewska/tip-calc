@@ -136,7 +136,7 @@
     margin-top: 130px;
   }
 
-  .tip-amount, .total {
+  .tip-amount-wrapper, .total-wrapper {
     margin: 30px;
     display: flex;
     justify-content: space-between;

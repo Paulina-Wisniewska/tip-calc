@@ -30,7 +30,7 @@
         <div class="bill">
           <h4>Bill</h4>
           <div class="input-wrapper">
-            <input placeholder="0" class="bills-input" />
+            <input placeholder="0" class="bills-input"/>
             <div class="icon-wrapper">
               <img src="images/icon-dollar.svg" alt="dollar" />
             </div>
@@ -40,11 +40,11 @@
         <div class="tip-select">
           <h4>Select Tip %</h4>
           <div class="tip-per">
-            <button>5%</button>
-            <button>10%</button>
-            <button>15%</button>
-            <button>25%</button>
-            <button>50%</button>
+            <button onclick="changeTip(0.05)">5%</button>
+            <button onclick="changeTip(0.10)">10%</button>
+            <button onclick="changeTip(0.15)">15%</button>
+            <button onclick="changeTip(0.25)">25%</button>
+            <button onclick="changeTip(0.50)">50%</button>
             <input placeholder="Custom" class="custom" />
           </div>
         </div>
@@ -59,22 +59,22 @@
       </div>
 
       <div class="summary">
-        <div class="tip-amount">
+        <div class="tip-amount-wrapper">
           <div>
             <h4 class="summary-h4">Tip Amount</h4>
             <p>/ person</p>
           </div>
           <div>
-            <p class="price-text">$0.00</p>
+            <p class="price-text tip-amount">$0.00</p>
           </div>
         </div>
-        <div class="total">
+        <div class="total-wrapper">
           <div>
             <h4 class="summary-h4">Total</h4>
             <p>/ person</p>
           </div>
           <div>
-            <p class="price-text">$0.00</p>
+            <p class="price-text total">$0.00</p>
           </div>
         </div>
 
@@ -88,5 +88,6 @@
         >Frontend Mentor</a
       >. Coded by <a href="#">Paulina</a>.
     </div>
+    <script src="myscripts.js"></script>
   </body>
 </html>
